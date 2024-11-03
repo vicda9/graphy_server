@@ -1,4 +1,4 @@
-FROM node:18-bullseye
+FROM node:23.0-bookworm-slim
 
 COPY graphserver.js .
 COPY package.json .
